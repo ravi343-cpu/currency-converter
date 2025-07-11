@@ -1,0 +1,60 @@
+*{
+    padding:0px;
+    margin:0px;
+    font-family: "Nunito", sans-serif;
+}
+
+.header{
+    height:50px;
+    border:solid 1px lightgray
+}
+
+.container{
+    min-height:100vh;
+    max-width:80vw;
+    margin:auto;
+    background-color: aquamarine;
+    
+}
+.container form{
+    display:flex;
+    flex-direction: column;
+    padding-left:10px;
+}
+.container form label{
+    font-size: 20px;
+    margin:10px 0px;
+}
+.container form input[type='quantity'], select ,label{
+    font-size:15px;
+    width:23vw;
+    margin:10px 0px;
+    
+}
+#btn{
+    width:100px;
+    padding:8px;
+    font-size:18px;
+    border-radius: 5px;
+    cursor:pointer;
+}
+.container h1 , h2{
+    padding:23px 0px 0px 10px;
+}
+
+ .output{
+    /* display: none; */
+    margin-left:50px;
+}
+
+    .output table {
+        width: 50vw;
+        text-align: center;
+        border: 2px solid black;
+        margin-top:20px;
+        font-size: 20px;
+    }
+ 
+    .output table th{
+        padding: 3px;
+    }
